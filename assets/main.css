@@ -1,0 +1,129 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+    background-color: rgb(255, 141, 141);
+    color: white;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-left: 20px;
+    border: 2px solid white;
+    background-color: rgb(247, 99, 99);
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+
+footer {
+    text-align: center;
+}
+
+nav.perfil img {
+    width: 100px;
+    margin-top: -50px;
+    border: 4px solid white;
+    border-radius: 50%;
+}
+
+nav.perfil img:hover {
+    transition: .8s;
+    border-radius: 5%;
+}
+
+nav.perfil {
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    width: 100%;
+    padding: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    padding: 10px;
+    gap: 20px;
+    border-bottom: 2px dashed rgb(255, 210, 210);
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+
+.border {
+    border: 2px solid white;
+}
+
+.fotoGato {
+    width: 30%; 
+    height: 30%;
+    border-radius: 5%;
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 15px;
+}
+
+#footer {
+    border-bottom: none;
+}
+
+.fotoGato:hover {
+    transition: .2s;
+    border-radius: 0%;
+    transform: scale(1.1);
+}
+
+#primeiro:hover {
+    transition: 1s;
+    color: rgb(255, 227, 69)
+}
+
+#segundo:hover {
+    transition: 1s;
+    color: rgb(109, 109, 109)
+}
+
+#terceiro:hover {
+    transition: 1s;
+    color: rgb(131, 26, 0)
+}
+
+.gato {
+    border-bottom: 1px dashed pink;
+}
+
+a {
+    color: pink
+}
+
+a:hover {
+    color: lightcoral;
+}
+
+main h1 {
+    color: rgb(231, 70, 97)
+}
