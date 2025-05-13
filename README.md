@@ -1,2 +1,1 @@
-# gatos
-Trabalho de WebDesign
+# Trabalho de WebDesign -  Lista de imagens com descrição + Perfil
